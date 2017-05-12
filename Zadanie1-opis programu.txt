@@ -1,0 +1,31 @@
+Program ma zadanie:
+Sprawdza czy skrypt zostal uruchomiony z 1 parametrem:
+-jesli tak nie bedzie ma zostac wys b³¹d
+- i zakonczyc skrypt
+Nalezy sprawdzic czy dane maja:
+- min 5 znakow
+- czy zaczynaja siê od pojedynczej ma³ej litery "s"
+- po której wystepuje dowlonej dlugoœci sekwencja cyfr ale minimum jedna cyfra,
+- potem mo¿e wyst¹piæ jedna du¿a litera ale nie musi
+- nastêpnie ci¹g ma³ych liter dowolnej d³ugpœci ale musi wyst¹piæ
+-jesli dane nie pasuj¹ do formatu nale¿y wyœ komunikat
+- i zakonczyc skrypt kodem b³êdu
+Nastêpnie wyrysowac choinke tak by:
+-puste pola byly wypelnione ostatnim znakiem danych wejœciowych(wype³nienie po obu stronach choinki)
+-Choinka ma mieæ tyle wierszy ile jest cyfr czyli 123 daje 3 wiersze.
+-Choinka ma byæ z³o¿ona z wypisanych kolejno cyfr z danych wejœciowych czyli:
+Dane wejœciowe : s1234567890Ax
+xxxxxxxxx1xxxxxxxxx
+xxxxxxxx234xxxxxxxx
+xxxxxxx56789xxxxxxx
+xxxxxx0123456xxxxxx
+xxxxx789012345xxxxx
+xxxx67890123456xxxx
+xxx7890123456789xxx
+xx012345678901234xx
+x56789012345678901x
+2345678901234567890
+W osobnych funkcjach nalezy umieœciæ:
+-sprawdzenie danych wejsciowych
+-ewentualne przeksztalcenia danych
+-wypisanie choinki
